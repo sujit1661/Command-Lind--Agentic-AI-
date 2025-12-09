@@ -1,6 +1,6 @@
 # 🚀 CMD-Based Agentic AI
 
-A lightweight, command-line driven **agentic AI system** that executes tasks, generates responses, and automates workflows directly from the terminal — no GUI required.
+A lightweight, command-line driven **agentic AI system** that executes tasks, generates responses, and automates workflows directly from the terminal — no GUI required. Built purely in Python.
 
 ---
 
@@ -19,18 +19,18 @@ A lightweight, command-line driven **agentic AI system** that executes tasks, ge
 
 cmd-agentic-ai/
 │── main.py
-│── cal_app/
-│── snake/
+│── cal_app/ # Example: CLI Calculator built with the agent
+│── snake/ # Example: Terminal-based Snake game built with the agent
 │── requirements.txt
 │── README.md
 
 yaml
 Copy code
 
-**Included Tools:**  
+**Included Example Tools:**  
 
-- **Snake** — Terminal-Based Snake Game  
-- **CalApp** — Simple CLI Calculator Application  
+- **Snake** — Terminal-Based Snake Game created using the agent  
+- **CalApp** — Simple CLI Calculator Application created using the agent  
 
 ---
 
@@ -39,13 +39,15 @@ Copy code
 ```bash
 python main.py
 🛠 How It Works
-User enters a natural-language command in the terminal.
+User enters a natural-language command in the terminal
 
-The agent plans the steps required.
+The agent plans the steps required
 
-Executes tools (search, file read, PDF processing, code execution, etc.).
+Executes tools (search, file read, PDF processing, code execution, etc.)
 
-Returns a clean result directly in the terminal.
+Returns a clean result directly in the terminal
 
 👨‍💻 Author
 Sujit Sadalage
+
+
